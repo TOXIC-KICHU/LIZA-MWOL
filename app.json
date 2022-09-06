@@ -105,15 +105,6 @@
             "required": true,
             "value": "https://i.imgur.com/aF6871J.jpeg"
         },
-        "HEROKU": {
-            "description": "If it is running in Heroku, type true.",
-            "required": true,
-            "value": "true"
-        },
-        "HEROKU_API_KEY": {
-            "description": "Heroku API Key.",
-            "required": true
-        },
         "MUTE_MESSAGE": {
             "description": "Customizable Mute Message! Use => default, to change back.",
             "required": false,
