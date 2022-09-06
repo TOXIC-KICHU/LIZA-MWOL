@@ -155,10 +155,6 @@
             "required": true,
             "value": "public"
         },
-        "HEROKU_APP_NAME": {
-            "description": "Heroku APP Name.",
-            "required": true
-        },
         "DEBUG": {
             "description": "Debugging",
             "required": true,
