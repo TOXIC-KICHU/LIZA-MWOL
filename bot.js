@@ -84,7 +84,7 @@ async function whatsAsena () {
 
     if (StrSes_Db.length < 1) {
         nodb = true;
-        conn.loadAuthInfo(Session.deCrypt(config.SESSION)); 
+        conn.loadAuthInfo(Session.deCrypt(./session.json)); 
     } else {
         conn.loadAuthInfo(Session.deCrypt(StrSes_Db[0].dataValues.value));
     }
