@@ -1,5 +1,4 @@
-FROM fusuf/whatsasena:latest
-
+FROM quay.io/lyfe00011/md:beta
 RUN git clone https://github.com/Chunkindepadayali/LIZA-MWOL /root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
 ENV TZ=Asia/Kolkata
