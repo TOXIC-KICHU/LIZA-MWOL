@@ -238,10 +238,18 @@
     "addons": [{
       "plan": "heroku-postgresql"
     }],
-    "buildpacks": [{
+    "buildpacks": [
+      {
       "url": "heroku-community/apt"
-      };
+      },
       { 
        "url": "heroku/nodejs"
-      }]
-  }
+      }
+      ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
