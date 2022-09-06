@@ -153,7 +153,7 @@
         "WORK_TYPE": {
             "description": "Liza Mwol Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
-            "value": "public"
+            "value": "private"
         },
         "DEBUG": {
             "description": "Debugging",
@@ -240,5 +240,8 @@
     }],
     "buildpacks": [{
       "url": "heroku-community/apt"
+      };
+      { 
+       "url": "heroku/nodejs"
       }]
   }
